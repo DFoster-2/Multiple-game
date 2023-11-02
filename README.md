@@ -1,2 +1,2 @@
-**This is a game combining multiple games**
-<!--aaaaaaaaaahhhhhhhhhhhhhhhhhhhhhhh-->
+**Multiple-game**
+This is a game combining multiple games
