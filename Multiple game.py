@@ -176,7 +176,7 @@ def on_click(event):
       if squaresToClear == 0:
         gameOver = True
         print("Well done! you found all the safe squares")
-        print("Your scor was:", score)
+        print("Your score was:", score)
         print(
           " -----------------------------------------Restart----------------------------------"
         )
@@ -222,7 +222,7 @@ def code_incripter():
   stringtoencryptLabel.grid(column=0,row=0,columnspan=2)
   stringtoencryptInput = Entry(encrypterRoot)
   stringtoencryptInput.grid(column=2,row=0)
-  shiftamountstrLabel = Label(encrypterRoot,text="To encrypt, enter a whole number from 1-25 to be your key.\n To decrypt, do that number but minus")
+  shiftamountstrLabel = Label(encrypterRoot,text="To encrypt, enter a whole number from 1-25 to be your key.\n To decrypt, negate that number.")
   shiftamountstrLabel.grid(column=0,row=1,columnspan=2)
   shiftamountstrInput = Entry(encrypterRoot)
   shiftamountstrInput.grid(column=2,row=1)
@@ -244,7 +244,7 @@ def aliens_guess():
     tkinter.messagebox.showinfo(title="info", message=string)
     tkinter.messagebox.showinfo(
       title="password hint",
-      message="Password hint: 'the things that are attacking us'.")
+      message="Password hint: 'The things that are attacking us'.")
     if aliens > 7400000000:
       tkinter.messagebox.showinfo(
         title="no!",
@@ -310,12 +310,12 @@ def alions():
 def Times_mashen():
   editchoice = " Nothing "
   while editchoice != "EXIT":
-    table = int(input("please tipe a tible:"))
-    number = int(input("Up to"))
+    table = int(input("please type a table: "))
+    number = int(input("Up to: "))
     for x in range(0, number + 1):
       print(x, "x", table, "=", x * table)
     editchoice = input(
-      "press reatern to play again, or tipe EXIT to leave ").upper()
+      "press return to play again, or type EXIT to leave: ").upper()
     if editchoice == "EXIT":
       exit()
 
@@ -324,14 +324,14 @@ def Times_mashen():
 
 def Gess_my_number():
   number = random.randint(1, 20)
-  guess = int(input("i'm thinking of a nummberfrom 1,20. what is it"))
+  guess = int(input("I'm thinking of a number from 1,20. What is it"))
   while guess != number:
     if guess < number:
-      print("your nummber is too low")
+      print("Your number is too low.")
     else:
-      print("your number is to high")
-    guess = int(input("pleas try again"))
-  print(" you did it")
+      print("Your number is too high.")
+    guess = int(input("please try again."))
+  print("You did it!")
   exit()
 
 
@@ -499,7 +499,7 @@ def random_story_cube():
     print(
       "--------------------------------------------------------------------")
     print()
-    hi = input("press enter to play again or to not type stop ").upper()
+    hi = input("press enter to play again or to not type stop: ").upper()
     if hi == "STOP":
       exit()
     print()
