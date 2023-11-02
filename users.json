@@ -1,0 +1,50 @@
+{
+  "xander": {
+    "password": "$2b$12$S365isTPpeZrKOhRrq7P3ufx3Wf.LWd.XOz1S.PWlL4abt296WQu2",
+    "name": "xander"
+  },
+  "daniel": {
+    "password": "$2b$12$sTKV5V.Iv2FNHO/E/PZ.hOfjQnUOcT2PEiAbga5me91NtZbzJCbbq",
+    "name": "daniel"
+  },
+  "laq 6": {
+    "password": "$2b$12$BhpKPkDNwEA/Izr4KUtF2.SkBq42f.bOEy31eNtZXvG6evP32dVpC",
+    "name": "laq 6"
+  },
+  "jo": {
+    "password": "$2b$12$S4tpq6sem67hZs.IEVrZw.LyNDIIABw7TmJQytW8z4kdHIHAp7CYi",
+    "name": "jo"
+  },
+  "bouncingballs": {
+    "password": "$2b$12$W/w7aumWNraCf3omEp3GfebyZbm5Hc48PWSb/1foCZlxpRZ6MBX9e",
+    "name": "bouncingballs"
+  },
+  "zackg": {
+    "password": "$2b$12$QZFieQAuy04cc/9s1c3qduBUTFfymxJKWaQLoIvPurr8NspK1JpMW",
+    "name": "zackg"
+  },
+  "adam@bombgame.com": {
+    "password": "$2b$12$qLEjyG9/oRIuSadOH0SYb.QCjMvmKUdN5p65xyioZ/wLqSEcu6NQC",
+    "name": "adam@bombgame.com"
+  },
+  "bigballs": {
+    "password": "$2b$12$ee3uDGB1FI8HC8/3W55pTeKzgftOkoPLWuV32UlJaRT9Rmm3d/wCG",
+    "name": "bigballs"
+  },
+  "yur mum": {
+    "password": "$2b$12$31bQf5yCUcwuDASU1uJD9.O5ZbysNcBIicPlUP7yb1v5OFbub6MNy",
+    "name": "yur mum"
+  },
+  "hi": {
+    "password": "$2b$12$wc8dCff11ODO5ilSwEJgNOOHo7Y1N/G5OkYsB0hyr25ImYWAOgBgu",
+    "name": "hi"
+  },
+  "new": {
+    "password": "$2b$12$ebQTVz0ERdNS2eHBkFMc7uc8xv4s4mNrkfT3AAagvarVxlpzqP6Mu",
+    "name": "new"
+  },
+  "": {
+    "password": "$2b$12$z/AsrIZQklNVcogLOSiXEeWGB4pS4VZyXESWsfbnmuvVpSphmH93m",
+    "name": ""
+  }
+}
